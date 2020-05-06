@@ -129,6 +129,7 @@ small {
     linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   background-size: 100% 100%;
 }
+
 .s-logo {
   flex: 12%;
   position: relative;
@@ -145,6 +146,40 @@ small {
 .s-image {
   flex: 30%;
 }
+
+.s-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .s-content {
   flex: 68%;
+  text-align: center;
+}
+
+.s-content h1 {
+  letter-spacing: 0.2em;
+  font-size: 3em;
+}
+
+.s-content .top-heading {
+  padding-top: 4.5rem;
+}
+
+.s-content p {
+  width: 80%;
+  margin: auto;
+  font-size: 14px;
+  padding: 1em;
+}
+
+.s-content .email-form {
+  width: 85%;
+  margin: auto;
+  font-size: 14px;
+}
+
+.s-content small {
+  float: left;
+  padding: 0.5em 4em;
 }

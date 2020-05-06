@@ -6,7 +6,7 @@ import girlImg from "../images/hero-desktop.jpg";
 function App() {
   let width = window.innerWidth;
 
-  if (width <= 375) {
+  if (width <= 600) {
     return <SmallView />;
   } else {
     return (
