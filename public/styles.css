@@ -43,7 +43,7 @@ button {
   border-radius: 25px;
   box-shadow: 0px 5px 10px 5px rgba(248, 191, 191, 0.5);
   cursor: pointer;
-  flex: 5%;
+  flex: 8%;
   margin-left: -4rem;
   height: 100%;
 }
@@ -54,6 +54,11 @@ button:hover {
     hsl(0, 100%, 98%),
     hsl(0, 80%, 86%)
   );
+}
+
+small {
+  color: hsl(0, 93%, 68%);
+  padding: 1.8em;
 }
 
 .container {
@@ -88,6 +93,18 @@ button:hover {
   width: 27rem;
   height: 3rem;
   padding-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.warn-input {
+  border: solid hsl(0, 93%, 68%);
+}
+
+.error-symbol {
+  z-index: 3;
+  position: relative;
+  right: 5rem;
+  top: 0.75rem;
 }
 
 .image {
