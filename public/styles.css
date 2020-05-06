@@ -3,13 +3,49 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+*:focus {
+  outline: none;
+}
+
+h1 {
+  letter-spacing: 0.2em;
+  font-size: 4em;
+}
+
+p {
+  color: hsl(0, 36%, 70%);
+  font-size: 16px;
+  width: 27em;
+  line-height: 1.75em;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 input {
   background: transparent;
   border-radius: 25px;
+  border: 0.035em solid;
+  box-sizing: border-box;
+  color: hsl(0, 36%, 70%);
+  flex: 80%;
+  font-size: 16px;
+  height: 100%;
+  padding: 0 1.5rem;
 }
 
-input:focus {
-  outline: none;
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+button {
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: 0px none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px 5px rgba(248, 191, 191, 0.5);
+  cursor: pointer;
+  flex: 5%;
+  margin-left: -4rem;
+  height: 100%;
 }
 
 .container {
@@ -22,18 +58,33 @@ input:focus {
     linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
     linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   background-size: 100% 100%;
-
-  flex: 63%;
+  flex: 58%;
   height: auto;
+  padding-top: 4rem;
+  padding-left: 11rem;
 }
 
-.topHeading {
+.top-heading {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+  padding-top: 6rem;
+}
+
+.bottom-heading {
+  color: hsl(0, 6%, 24%);
+  padding-top: 0.5rem;
+}
+
+.email-form {
+  display: flex;
+  width: 27rem;
+  height: 3rem;
+  padding-top: 0.75rem;
 }
 
 .image {
-  flex: 37%;
+  flex: 42%;
   grid-area: image;
-  background-color: aqua;
   height: auto;
 }
 

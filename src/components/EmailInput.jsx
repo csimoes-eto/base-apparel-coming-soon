@@ -3,12 +3,12 @@ import { ReactComponent as Arrow } from "../images/icon-arrow.svg";
 
 function EmailInput() {
   return (
-    <span>
+    <div className="email-form">
       <input type="email" placeholder="Email Address"></input>
       <button>
         <Arrow />
       </button>
-    </span>
+    </div>
   );
 }
 

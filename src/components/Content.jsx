@@ -7,8 +7,9 @@ function Content() {
   return (
     <div>
       <Logo />
-      <Heading text="WE'RE" class="topHeading" />
-      <Heading text="COMING SOON" />
+      <Heading text="WE'RE" class="top-heading" />
+      <Heading text="COMING" class="bottom-heading" />
+      <Heading text="SOON" class="bottom-heading" />
       <p>
         Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our
