@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactComponent as Arrow } from "../images/icon-arrow.svg";
 
 function EmailInput() {
