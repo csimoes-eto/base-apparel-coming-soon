@@ -119,3 +119,32 @@ small {
   object-fit: cover;
   background-color: hsl(0, 6%, 24%);
 }
+
+.s-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url("./img/bg-pattern-desktop.svg"),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-size: 100% 100%;
+}
+.s-logo {
+  flex: 12%;
+  position: relative;
+}
+
+.s-logo img {
+  width: 7rem;
+  height: auto;
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.s-image {
+  flex: 30%;
+}
+.s-content {
+  flex: 68%;
+}
